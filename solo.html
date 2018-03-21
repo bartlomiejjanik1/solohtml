@@ -3,6 +3,24 @@
         <title>first page</title>
     </head>
     <body>
+            <p><b> FORMULARZE </b></p>
+            <form>
+                    <input type="text" name="username" /><br />
+                    <input type="password" name="password" />
+                 </form>
+            <form>
+                <input type="radio" name="płeć" value="male" /> Male<br />
+                <input type="radio" name="płeć" value="female" /> Female<br />
+             <!-- Nazwypola name musza byc takie same, inaczej radio nie bedzie wybieralo tylko jednej wartosci -->
+             <input type="checkbox" name="gender" value="1" />Male <br />
+             <input type="checkbox" name="gender" value="2" />Female <br />
+            </form>
+            <form>
+                    <input type="submit" value="Submit" /> <!-- submituje tylko to co jest w danym formularzu! -->
+            </form>
+
+
+        <br />
         <h1>Najwazniejszy head</h1>
         <h2>h2 az do h6</h2>
 
@@ -46,13 +64,22 @@
                     <td>Trzecia kolumna</td>
                 </tr>
                 <tr>
-                    <td><br /></td>       <!-- pierwsza kolumna pusta -->
+                    <td bgcolor="red"><br /></td>       <!-- pierwsza kolumna pusta -->
                     <td colspan="2"></td> <!-- druga złączona z 2 i 3 kolumny -->
                 </tr>
                     
             </table>
             <br>
+            <h1>Headline</h1>
+            <div style="background-color:green; color:white; padding:20px;">
+              <p>Some paragraph text goes here.</p>
+              <p>Another paragraph goes here.</p>
+            </div>
 
+            <span style="background-color: red;">TEST SPAN</span>
+            <br />
+            <hr width="50%" align+"left" /><br />
+            
 
    
    
